@@ -16,8 +16,8 @@ A short background about the project:
 Replication Instructions:
 =========================
 1) Follow all the steps in order.
-2) All the scripts are run inside the "ecfl" folder.
-    # $ANY_DIRECTORY/ecfl
+2) All the scripts are run inside the "Enhanced-Fault-Localization" folder.
+    # $ANY_DIRECTORY/Enhanced-Fault-Localization
 
 
 Prerequisite Tools:
@@ -37,17 +37,15 @@ PART 1: (ECFL setup)
 ====================
 1) Clone and setup ECFL bitbucket repository
 
-    # Get the git clone link from the URL: https://bitbucket.org/sealabvt/ecfl/src
-    # In the "ecfl" directory, execute git clone "link"
-        For example:
-        # git clone https://kanagarajnn@bitbucket.org/sealabvt/ecfl.git
+    # Get the git clone link from the URL: https://github.com/Kanagaraj-NN/Enhanced-Fault-Localization.git
+    # git clone https://github.com/Kanagaraj-NN/Enhanced-Fault-Localization.git
         # (username will be different for you)
-    # After the git clone, a directory named "fault-localization-data" will be created in "ecfl"
-    # cd ecfl
+    # After the git clone, a directory named "Enhanced-Fault-Localization"
+    # cd Enhanced-Fault-Localization
 
-2) Verify the contents of the "ecfl" folder
+2) Verify the contents of the "Enhanced-Fault-Localization" folder
 
-    "ecfl" folder contains the following items
+    "Enhanced-Fault-Localization" folder contains the following items
 
     Documentation file (Instructions to run):
     =========================================
@@ -93,7 +91,7 @@ Part 2: Fault Localization and Defects4J dataset setup
    provided below.
 
     # Get the git clone link from the URL: https://bitbucket.org/rjust/fault-localization-data/src/master/
-    # In the ecfl directory, execute git clone "link"
+    # In the Enhanced-Fault-Localization directory, execute git clone "link"
         For example:
         # git clone https://kanagarajnn@bitbucket.org/rjust/fault-localization-data.git
         # (username will be different for you)
@@ -111,7 +109,7 @@ Part 2: Fault Localization and Defects4J dataset setup
     # defects4j info -p Lang
         This command will provide details about the defects4j Lang project along with the defects4j directories
 	# cd ..
-		This command will take back to the parent directory (working directory: "ecfl")
+		This command will take back to the parent directory (working directory: "Enhanced-Fault-Localization")
 
 
 
@@ -132,7 +130,7 @@ Option 2: Execute each script one by one
 1) Download Coverage data from the repository [2]
 
     # Coverage information consists of matrix and spectra files for each fault (zipped files)
-    # Follow either option 1 or option 2 (from ecfl directory)
+    # Follow either option 1 or option 2 (from Enhanced-Fault-Localization directory)
         # Option 1: Download the coverage files for only real faults (395 real faults)
             # python3.6 1_download_data_from_FL_repo.py
         # Option 2: Download the coverage files for all faults (395 real faults + 3242 artifical faults)
@@ -152,7 +150,7 @@ Option 2: Execute each script one by one
 
 
 
-PART 4: ECFL Computation and Evaluation
+PART 4: Enhanced-Fault-Localization Computation and Evaluation
 =======================================
 IMPORTANT NOTES:
 ===============
